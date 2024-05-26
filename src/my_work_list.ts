@@ -112,3 +112,34 @@ lightSower("green"); */
 /* function errorHandler(message: string): never{
     throw new Error(message);
 } */
+
+/* type User2 = {
+  name2: string;
+  age2: number;
+}; */
+
+/* interface User1 {
+  name1: string;
+  age1: number;
+  lastName?: string; //якщо є або нє
+  sayHello(): string;
+  sayBye(): void;
+  showAge(age: number): string;
+}
+
+const user = {
+  name: "Bob",
+  age: 12,
+  sayHello() {
+    return "Hello";
+  },
+  sayBye() {
+    console.log("Bye");
+  },
+  showAge(age: number) {
+    return `My age is ${age}`;
+  },
+};
+
+console.log(user.showAge(15));
+ */
